@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(to right, white, rgb(173, 173, 247));
+  background: linear-gradient(to right, rgb(3, 41, 83), rgb(173, 173, 247));
   overflow-x: hidden;
 }
 
@@ -19,6 +19,16 @@ li {
   align-items: center;
   padding: 20px;
   flex-wrap: wrap;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navBar a:hover {
+  color: red;
 }
 
 .empty {
@@ -149,7 +159,15 @@ li {
   font-size: clamp(22px, 3vw, 30px);
   font-weight: bold;
 }
-
-.footer li {
+.footer li{
   margin-bottom: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover{
+  color: red;
+  font-weight: bold;
 }
