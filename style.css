@@ -56,11 +56,6 @@ li {
   font-size: clamp(12px, 2vw, 15px);
 }
 
-.banner {
-  background: yellow;
-  padding: clamp(10px, 10vw, 100px) 20px;
-}
-
 .porfolio {
   position: fixed;
   left: 20px;
